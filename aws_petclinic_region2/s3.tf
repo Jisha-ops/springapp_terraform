@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3_bucket" {
-   bucket = "deepak-s3-bucket1"
+   bucket = "jisha-s3-bucket1"
    } # change this
 
 
