@@ -1,8 +1,8 @@
 terraform {
    backend "s3" {
-    bucket         = "jisha-s3-bucket1" # change this
+    bucket         = "jishaterraformproject2024" # change this
     key            = "jisha/terraform.tfstate"
-    region         = "ap-south-1"
+    region         = "ap-southest-2"
     encrypt        = true
     dynamodb_table = "terraform-lock"
  }

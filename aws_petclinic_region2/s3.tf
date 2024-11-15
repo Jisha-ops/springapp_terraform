@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3_bucket" {
-   bucket = "jisha-s3-bucket1"
+   bucket = "jishaterraformproject2024"
    } # change this
 
 

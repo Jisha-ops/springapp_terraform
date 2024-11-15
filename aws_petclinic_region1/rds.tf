@@ -57,7 +57,7 @@ resource "aws_db_instance" "db_instance" {
   publicly_accessible   = true
   db_subnet_group_name  = aws_db_subnet_group.database_subnet_group.name
   vpc_security_group_ids = [aws_security_group.database_security_group.id]
-  availability_zone     = "ap-south-1"
+  availability_zone     = "ap-southeast-2"
   db_name               = "petclinic"
   skip_final_snapshot   = true
 }
